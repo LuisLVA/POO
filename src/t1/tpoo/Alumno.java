@@ -6,6 +6,10 @@ public class Alumno
   private String TipoDeDocumento;
   private String NivelSE;
   private String TipoDeBeca;
+  private String NumeroDeDocumento;
+
+    public Alumno() {
+    }
 
     public String getNombre() {
         return nombre;
@@ -38,9 +42,13 @@ public class Alumno
     public void setTipoDeBeca(String TipoDeBeca) {
         this.TipoDeBeca = TipoDeBeca;
     }
-  
-  
-  
- 
-  
+
+    public String getNumeroDeDocumento() {
+        return NumeroDeDocumento;
+    }
+
+    public void setNumeroDeDocumento(String NumeroDeDocumento) {
+        this.NumeroDeDocumento = NumeroDeDocumento;
+    }
+
 }
