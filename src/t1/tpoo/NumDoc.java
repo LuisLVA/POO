@@ -8,6 +8,6 @@ package t1.tpoo;
  *
  * @author UCA40415
  */
-public class AlumnoControlador {
+class NumDoc {
     
 }
